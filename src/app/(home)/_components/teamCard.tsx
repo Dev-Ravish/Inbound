@@ -8,7 +8,7 @@ interface TeamCardProps {
 const TeamCard = ({ image, name, description }: TeamCardProps) => {
   return (
     <div>
-      <article className="bg-blue-950 group relative rounded-lg overflow-hidden shadow-lg hover:shadow-lg hover:shadow-gray-700 transform duration-200 h-full">
+      <article className="bg-blue-950 hover:-translate-y-1 group relative rounded-lg overflow-hidden shadow-lg  transform duration-200 h-full">
         <div className="relative w-full h-80 md:h-64 lg:h-44">
             <Image
                 src={image}
