@@ -82,19 +82,19 @@ export const siteConfig = {
                 id:1,
                 image:"",
                 name:"Aravind I B",
-                description:"PhD in Dept.  of Aerospace Engineerin IIT Madras"
+                description:"PhD in Dept. of Aerospace Engineering IIT Madras"
             },
             {
                 id:2,
                 image:"",
                 name:"Dr. S Pandian",
-                description:"Former Director, Satish Dhawan Space Centre, ISRO AERODYNAMICS"
+                description:"Former Director, Satish Dhawan Space Centre at ISRO Aerodynamics"
             },
             {
                 id:3,
                 image:"",
                 name:"Dr. V R Lalithambika",
-                description:"Former Director, Directorate of Human Space Programme, ISRO NAVIGATION & CONTROL"
+                description:"Former Director, Directorate of Human Space Programme at ISRO Navigation and Control"
             }
         ]
     }
