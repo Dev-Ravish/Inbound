@@ -1,9 +1,9 @@
-import React from 'react'
-import Navbar from './_components/navbar'
+import HeroSection from "./_components/hero-section"
 
 const page = () => {
   return (
     <div>
+      <HeroSection/>
     </div>
   )
 }
