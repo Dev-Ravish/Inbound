@@ -21,7 +21,7 @@ const HeroSection = () => {
         </div>
         <div className="  h-full w-full lg:w-1/2 flex justify-center items-center">
           <div className="w-full h-[400px] sm:h-[600px]  md:h-[800px] my-auto flex justify-center items-center">
-            <EarthCanvas />
+            {/* <EarthCanvas /> */}
           </div>
         </div>
       </div>
