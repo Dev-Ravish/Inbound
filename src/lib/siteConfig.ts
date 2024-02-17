@@ -97,5 +97,9 @@ export const siteConfig = {
                 description:"Former Director, Directorate of Human Space Programme at ISRO Navigation and Control"
             }
         ]
-    }
+    },
+    videos:[{
+        url: "https://www.youtube.com/embed/mjL_vrNo1fQ",
+        title: "8 TailwindCSS Classes I Wish I Found Earlier"
+    }]
 }
