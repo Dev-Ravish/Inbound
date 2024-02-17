@@ -1,7 +1,5 @@
-import Image from "next/image";
-import React from "react";
 
-const ImpactCard = ({ image, description }) => {
+const ImpactCard = ({ image, description }:{image:string,description:string}) => {
   return (
     <div  className="group relative cursor-pointer overflow-hidden bg-blue-950 px-6 pt-10 pb-8 shadow-xl ring-1 ring-gray-900/5 transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl sm:mx-auto sm:max-w-sm sm:rounded-lg sm:px-10 h-full">
       <span className="absolute top-10 z-0 h-20 w-20 rounded-full bg-sky-500 transition-all duration-300 group-hover:scale-[10]"></span>
