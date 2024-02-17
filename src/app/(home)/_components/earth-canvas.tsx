@@ -1,9 +1,8 @@
 "use client"
 import { OrbitControls, useGLTF } from "@react-three/drei";
-import { Canvas } from "@react-three/fiber";
 import { FC, Suspense } from "react";
 import { GLTF } from "three/examples/jsm/loaders/GLTFLoader.js";
-
+import {Canvas} from "@react-three/fiber";
 
 const Earth: FC = () => {
   const earth = useGLTF("./planet/scene.gltf") as unknown as GLTF;

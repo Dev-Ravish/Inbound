@@ -17,7 +17,7 @@ const Impact = () => {
                     <div key={item.id}>
                         <ImpactCard
                             key={item.id}
-                            image={imageUrl}
+                            image={item.image}
                             description={item.description}
                         />
                     </div>

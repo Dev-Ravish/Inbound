@@ -44,32 +44,32 @@ export const siteConfig = {
         Cards:[
             {
                 id:1,
-                image:"",
+                image:"/assets/nasa.jpg",
                 description:"Wide band gap semiconductors for power electronics"
             },
             {
                 id:2,
-                image:"",
+                image:"/assets/nasa.jpg",
                 description:"Spherical, soot-free and blue flame"
             },
             {
                 id:3,
-                image:"",
+                image:"/assets/nasa.jpg",
                 description:"High - purity protein crystals for pharmaceuticals"
             },
             {
                 id:4,
-                image:"",
+                image:"/assets/nasa.jpg",
                 description:" Scaffold-free 3D Bio-printing"
             },
             {
                 id:5,
-                image:"",
+                image:"/assets/nasa.jpg",
                 description:"Protein-based artificial retinas"
             },
             {
                 id:6,
-                image:"",
+                image:"/assets/nasa.jpg",
                 description:" Wider bandwidth fiber optics"
             },
         ]
@@ -80,19 +80,19 @@ export const siteConfig = {
         cards:[
             {
                 id:1,
-                image:"",
+                image:"/assets/arvind.png",
                 name:"Aravind I B",
                 description:"PhD in Dept. of Aerospace Engineering IIT Madras"
             },
             {
                 id:2,
-                image:"",
+                image:"/assets/pandian.png",
                 name:"Dr. S Pandian",
                 description:"Former Director, Satish Dhawan Space Centre at ISRO Aerodynamics"
             },
             {
                 id:3,
-                image:"",
+                image:"/assets/lalithambika.png",
                 name:"Dr. V R Lalithambika",
                 description:"Former Director, Directorate of Human Space Programme at ISRO Navigation and Control"
             }

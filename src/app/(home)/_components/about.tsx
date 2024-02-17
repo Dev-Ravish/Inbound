@@ -11,7 +11,7 @@ const About = () => {
             <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-200">
               {siteConfig.about.title.toUpperCase()}
             </h1>
-            <p className="lg:w-3/4 mx-auto leading-relaxed text-xl ">
+            <p className="lg:w-3/4 mx-auto leading-relaxed text-sm sm:text-xl">
               {siteConfig.about.content}
             </p>
           </div>

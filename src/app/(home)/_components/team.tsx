@@ -2,8 +2,8 @@ import React from "react";
 import TeamCard from "./teamCard";
 import { siteConfig } from "@/lib/siteConfig";
 const Team = () => {
-  const imageUrl =
-    "https://shorturl.ac/7d32e";
+  // const imageUrl =
+  //   "https://shorturl.ac/7d32e";
   return (
     <div id="contact">
       <section className=" mt-12 mb-12">
@@ -16,7 +16,7 @@ const Team = () => {
               return (
                 <TeamCard
                   key={item.id}
-                  image={imageUrl}
+                  image={item.image}
                   name={item.name}
                   description={item.description}
                 />
