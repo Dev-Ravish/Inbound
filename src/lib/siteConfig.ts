@@ -99,7 +99,10 @@ export const siteConfig = {
         ]
     },
     videos:[{
-        url: "https://www.youtube.com/embed/mjL_vrNo1fQ",
-        title: "8 TailwindCSS Classes I Wish I Found Earlier"
-    }]
+        url: "https://www.youtube.com/embed/-H_nYXI_iPc?si=fq0pzXFk5lXnWxn4",
+        title: "Inbound Aerospace | Retractable satellite"
+    }],
+    footer:{
+        title: "built with ❤️ by NoCodeClub IIT Madras."
+    }
 }
