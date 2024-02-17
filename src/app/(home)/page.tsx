@@ -1,3 +1,4 @@
+import { siteConfig } from "@/lib/siteConfig";
 import About from "./_components/about";
 import HeroSection from "./_components/hero-section";
 import Impact from "./_components/impact";
@@ -11,7 +12,10 @@ const page = () => {
       <div className="lg:px-32 px-16 font-medium scroll-smooth">
         <About />
         <Impact />
-        <Video />
+        <Video
+          url={siteConfig.videos[0].url}
+          title={siteConfig.videos[0].url}
+        />
         <Team />
       </div>
     </div>
