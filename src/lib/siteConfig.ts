@@ -26,14 +26,17 @@ export const siteConfig = {
         cards:[
             {
                 title:"EVEN SUSPENSION",
+                src: "/assets/event_suspension.png",
                 content:"Under gravity, fine particles within a liquid can settle to the bottom, but in space they stay uniformly mixed throughout"
             },
             {
                 title:"LACK OF BUOYANCY ",
+                src: "/assets/lack_of_boundry.png",
                 content:"On Earth, air bubbles and anything lighter than the liquid they are in float to the surface, but in microgravity they mix evenly."
             },
             {
                 title:"LACK OF THERMAL CONVECTION",
+                src: "/assets/lack_of_thermal_convection.png",
                 content:"Convection-when hotter(less dense) material rises and cooler material sinks-requires gravity. "
             },
         ]
@@ -44,27 +47,27 @@ export const siteConfig = {
         Cards:[
             {
                 id:1,
-                image:"/assets/nasa.jpg",
+                image:"/assets/impact1.jpg",
                 description:"Wide band gap semiconductors for power electronics"
             },
             {
                 id:2,
-                image:"/assets/nasa.jpg",
+                image:"/assets/impact2.png",
                 description:"High - purity protein crystals for pharmaceuticals"
             },
             {
                 id:3,
-                image:"/assets/nasa.jpg",
+                image:"/assets/impact3.jpg",
                 description:" Scaffold-free 3D Bio-printing"
             },
             {
                 id:4,
-                image:"/assets/nasa.jpg",
+                image:"/assets/impact4.jpg",
                 description:"Protein-based artificial retinas"
             },
             {
                 id:5,
-                image:"/assets/nasa.jpg",
+                image:"/assets/impact5.jpg",
                 description:" Wider bandwidth fiber optics"
             },
         ]
