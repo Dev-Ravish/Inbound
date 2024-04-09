@@ -15,7 +15,7 @@ const page = () => {
         <Impact />
         <Video
           url={siteConfig.videos[0].url}
-          title={siteConfig.videos[0].url}
+          title={siteConfig.videos[0].title}
         />
         <Team />
         <Footer/>

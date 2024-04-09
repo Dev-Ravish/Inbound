@@ -109,9 +109,9 @@ export const siteConfig = {
         ]
     },
     videos:[{
-        url: "https://www.youtube.com/embed/-H_nYXI_iPc?si=fq0pzXFk5lXnWxn4",
+        url: "https://res.cloudinary.com/dobwjqlqv/video/upload/v1712695012/Inbound_Aerospace_Retractable_Satellite_hc3j86.mp4",
+        title: "Inbound Aerospace | Retractable Satellite"
 
-        title: "Inbound Aerospace | Retractable satellite"
     }],
     footer:{
         title: "built with ❤️ by NoCodeClub IIT Madras."

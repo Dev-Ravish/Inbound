@@ -22,7 +22,7 @@ const TeamCard = ({ image, name, description }: TeamCardProps) => {
           <h3 className="text-sm pb-2 pt-2">
             <a
               className="bg-indigo-600 py-1 px-2 text-white rounded-lg"
-              href="#"
+              href="#contact"
             >
               <span className="absolute inset-0"></span>
               {name}
