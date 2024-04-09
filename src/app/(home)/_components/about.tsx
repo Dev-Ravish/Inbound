@@ -1,6 +1,7 @@
 import { siteConfig } from "@/lib/siteConfig";
 import React from "react";
 import AboutCard from "./about-card";
+import Image from "next/image";
 
 const About = () => {
   return (
@@ -18,7 +19,7 @@ const About = () => {
         </div>
       </section>
       <section className="text-gray-200 body-font">
-        <div className=" py-12 mx-auto">
+        <div className="block md:hidden py-12 mx-auto">
           <div className="flex flex-col text-center w-full mb-8">
             <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-200">
               {siteConfig.aboutCards.title.toUpperCase()}
@@ -33,6 +34,11 @@ const About = () => {
               />
             ))}
           </div>
+        </div>
+        <div className="hidden md:block">
+          {siteConfig.aboutCards.cards.map((item)=>(
+              <Image key={item.src} src={item.src} width={1230} height={534} className="w-full" alt={item.title} />
+          ))}
         </div>
       </section>
     </div>

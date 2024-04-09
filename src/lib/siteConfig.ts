@@ -26,14 +26,17 @@ export const siteConfig = {
         cards:[
             {
                 title:"EVEN SUSPENSION",
+                src: "/assets/event_suspension.png",
                 content:"Under gravity, fine particles within a liquid can settle to the bottom, but in space they stay uniformly mixed throughout"
             },
             {
                 title:"LACK OF BUOYANCY ",
+                src: "/assets/lack_of_boundry.png",
                 content:"On Earth, air bubbles and anything lighter than the liquid they are in float to the surface, but in microgravity they mix evenly."
             },
             {
                 title:"LACK OF THERMAL CONVECTION",
+                src: "/assets/lack_of_thermal_convection.png",
                 content:"Convection-when hotter(less dense) material rises and cooler material sinks-requires gravity. "
             },
         ]
