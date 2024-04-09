@@ -50,25 +50,20 @@ export const siteConfig = {
             {
                 id:2,
                 image:"/assets/nasa.jpg",
-                description:"Spherical, soot-free and blue flame"
+                description:"High - purity protein crystals for pharmaceuticals"
             },
             {
                 id:3,
                 image:"/assets/nasa.jpg",
-                description:"High - purity protein crystals for pharmaceuticals"
+                description:" Scaffold-free 3D Bio-printing"
             },
             {
                 id:4,
                 image:"/assets/nasa.jpg",
-                description:" Scaffold-free 3D Bio-printing"
-            },
-            {
-                id:5,
-                image:"/assets/nasa.jpg",
                 description:"Protein-based artificial retinas"
             },
             {
-                id:6,
+                id:5,
                 image:"/assets/nasa.jpg",
                 description:" Wider bandwidth fiber optics"
             },
@@ -80,18 +75,30 @@ export const siteConfig = {
         cards:[
             {
                 id:1,
-                image:"/assets/arvind.png",
+                image:"/assets/arvind.jpg",
                 name:"Aravind I B",
                 description:"PhD in Dept. of Aerospace Engineering IIT Madras"
             },
             {
                 id:2,
-                image:"/assets/pandian.png",
-                name:"Dr. S Pandian",
-                description:"Former Director, Satish Dhawan Space Centre at ISRO Aerodynamics"
+                image:"/assets/vishal_reddy.png",
+                name:"Vishal Reddy",
+                description:"PhD in Dept. of Aerospace Engineering IIT Madras"
             },
             {
                 id:3,
+                image:"/assets/abhijit_bhutey.png",
+                name:"Captain Abhijit Bhutey",
+                description:"Master of Science - MS Management Science and Engineering"
+            },
+            {
+                id:4,
+                image:"/assets/pandian.png",
+                name:"Dr. S Pandian",
+                description:"Master of Science Defence & Strategic Studies"
+            },
+            {
+                id:5,
                 image:"/assets/lalithambika.png",
                 name:"Dr. V R Lalithambika",
                 description:"Former Director, Directorate of Human Space Programme at ISRO Navigation and Control"
@@ -100,6 +107,7 @@ export const siteConfig = {
     },
     videos:[{
         url: "https://www.youtube.com/embed/-H_nYXI_iPc?si=fq0pzXFk5lXnWxn4",
+
         title: "Inbound Aerospace | Retractable satellite"
     }],
     footer:{
