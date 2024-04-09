@@ -49,7 +49,7 @@ export const siteConfig = {
             },
             {
                 id:2,
-                image:"/assets/impact2.jpg",
+                image:"/assets/impact2.png",
                 description:"High - purity protein crystals for pharmaceuticals"
             },
             {
