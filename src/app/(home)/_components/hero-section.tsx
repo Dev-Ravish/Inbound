@@ -2,7 +2,11 @@ import { siteConfig } from "@/lib/siteConfig";
 import Image from "next/image";
 import EarthCanvas from "./earth-canvas";
 import StarsCanvas from "./star-canvas";
-import { myFont } from "@/app/layout";
+import localFont from 'next/font/local'
+const myFont = localFont({
+  src: './BrushScriptStd.otf',
+  display: 'swap',
+})
 const HeroSection = () => {
   return (
     <section id="#about" className="overflow-x-hidden">
