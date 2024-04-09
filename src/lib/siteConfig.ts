@@ -114,6 +114,11 @@ export const siteConfig = {
         title: "Inbound Aerospace | Retractable satellite"
     }],
     footer:{
-        title: "built with ❤️ by NoCodeClub IIT Madras."
+        title: "built with ❤️ by NoCodeClub IIT Madras.",
+        name: "Aravind I B",
+        position: "Founder, Inbound Aerospace, Nirmaan (IIT Madras Pre-incubator)",
+        address: "1st Floor Sudha & Shankar Innovation Hub, IIT Madras, Chennai- 600 036",
+        phone: "+91 8111927056",
+        email: "inboundaerospace@gmail.com",
     }
 }
