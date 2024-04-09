@@ -18,7 +18,7 @@ export const siteConfig = {
     ],
     about: {
         title: "What we do?",
-        content: "Inbound Aerospace is focused on providing a spacecraft platform that utilizes the unique microgravity environment of space to manufacture revolutionary products that profoundly impact and improve the lives on Earth. We take pride in assisting our customers in producing these innovative products in space and bringing them back to Earth, delivering life-transforming benefits. By harnessing the power of space, we aim to bring the advantages of the cosmos right to our planet."
+        content: "Inbound Aerospace is focused on providing a spacecraft platform that utilizes the unique microgravity environment of space to manufacture revolutionary products that profoundly impact and improve the lives on Earth. We take pride in assisting our customers in producing these innovative products in space and bringing them back to Earth, delivering life-transforming benefits. By harnessing the power of space, we aim to bring the advantages of the cosmos right to our planet. Our recoverable spacecraft platform enables customers to conduct in-orbit technology demonstrations and microgravity experiments, accelerating their product development timelines."
     },
 
     aboutCards:{
@@ -109,9 +109,9 @@ export const siteConfig = {
         ]
     },
     videos:[{
-        url: "https://www.youtube.com/embed/-H_nYXI_iPc?si=fq0pzXFk5lXnWxn4",
+        url: "https://res.cloudinary.com/dobwjqlqv/video/upload/v1712695012/Inbound_Aerospace_Retractable_Satellite_hc3j86.mp4",
+        title: "Inbound Aerospace | Retractable Satellite"
 
-        title: "Inbound Aerospace | Retractable satellite"
     }],
     footer:{
         title: "built with ❤️ by NoCodeClub IIT Madras.",
