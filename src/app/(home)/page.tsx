@@ -4,6 +4,7 @@ import HeroSection from "./_components/hero-section";
 import Impact from "./_components/impact";
 import Team from "./_components/team";
 import Video from "./_components/video";
+import Footer from "./_components/footer";
 
 const page = () => {
   return (
@@ -17,6 +18,7 @@ const page = () => {
           title={siteConfig.videos[0].url}
         />
         <Team />
+        <Footer/>
       </div>
     </div>
   );
