@@ -2,7 +2,7 @@ import { siteConfig } from "@/lib/siteConfig";
 import Image from "next/image";
 import EarthCanvas from "./earth-canvas";
 import StarsCanvas from "./star-canvas";
-
+import { myFont } from "@/app/layout";
 const HeroSection = () => {
   return (
     <section id="#about" className="overflow-x-hidden">
@@ -17,7 +17,7 @@ const HeroSection = () => {
             priority
             className="mix-blend-screen"
           />
-          <h1 className="text-2xl md:text-3xl">{siteConfig.siteSlogan}</h1>
+          <h1 className={`text-3xl md:text-5xl ${myFont.className}`}>{siteConfig.siteSlogan}</h1>
         </div>
         <div className="  h-full w-full lg:w-1/2 flex justify-center items-center">
           <div className="w-full h-[400px] sm:h-[600px]  md:h-[800px] my-auto flex justify-center items-center">

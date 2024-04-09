@@ -9,13 +9,13 @@ const TeamCard = ({ image, name, description }: TeamCardProps) => {
   return (
     <div>
       <article className="bg-blue-950 hover:-translate-y-1 group relative rounded-lg overflow-hidden shadow-lg  transform duration-200 h-full">
-        <div className=" lg:w-2/ w-full" >
+        <div className=" " >
             <Image
                 src={image}
                 alt={name}
                 width={200}
                 height={100}
-                className=" max-h-full lg:w-2/3 object-right-bottom md:rounded-e-full md:rounded-b-full mx-auto md:mx-0 pt-4 md:pt-0"
+                className=" object-right-bottom md:rounded-e-full md:rounded-b-full mx-auto md:mx-0 pt-4 md:pt-0"
             />
         </div>
         <div className="px-3 py-2 text-center md:text-left">

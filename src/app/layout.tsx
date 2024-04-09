@@ -2,6 +2,12 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "@/components/providers/theme-provider";
+import localFont from 'next/font/local'
+
+export const myFont = localFont({
+  src: './BrushScriptStd.otf',
+  display: 'swap',
+})
 
 const inter = Inter({ subsets: ["latin"] });
 import { siteConfig } from "@/lib/siteConfig";
