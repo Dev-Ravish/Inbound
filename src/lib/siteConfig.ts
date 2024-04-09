@@ -93,13 +93,13 @@ export const siteConfig = {
             },
             {
                 id:4,
-                image:"/assets/pandian.png",
+                image:"/assets/pandian.jpg",
                 name:"Dr. S Pandian",
                 description:"Master of Science Defence & Strategic Studies"
             },
             {
                 id:5,
-                image:"/assets/lalithambika.png",
+                image:"/assets/lalithambika.jpg",
                 name:"Dr. V R Lalithambika",
                 description:"Former Director, Directorate of Human Space Programme at ISRO Navigation and Control"
             }
