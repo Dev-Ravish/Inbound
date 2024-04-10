@@ -86,19 +86,19 @@ export const siteConfig = {
                 id:2,
                 image:"/assets/vishal_reddy.png",
                 name:"Vishal Reddy",
-                description:"PhD in Dept. of Aerospace Engineering IIT Madras"
+                description:"Master of Science - MS Management Science and Engineering"
             },
             {
                 id:3,
                 image:"/assets/abhijit_bhutey.png",
                 name:"Captain Abhijit Bhutey",
-                description:"Master of Science - MS Management Science and Engineering"
+                description:"Master of Science Defence & Strategic Studies"
             },
             {
                 id:4,
                 image:"/assets/pandian.jpg",
                 name:"Dr. S Pandian",
-                description:"Master of Science Defence & Strategic Studies"
+                description:"Former Director, Satish Dhawan Space Centre, ISRO"
             },
             {
                 id:5,
